@@ -220,9 +220,7 @@ const displayText = () => {
           </div>
         ) : gameWon ? (
           <>
-            <Confetti
-            width={windowSize.width}
-            height={windowSize.height} />
+            <Confetti windowSize={windowSize} />
             <div className="btn">
               <button onClick={newGame}>New Game</button>
             </div>
