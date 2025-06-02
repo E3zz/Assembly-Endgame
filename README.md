@@ -1,17 +1,35 @@
-<<<<<<< HEAD
-# React + Vite
+# Assembly-Endgame 🧩  
+A fun and interactive "Guess the Word" game built with React!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎮 Overview
+Assembly-Endgame is a word-guessing game where players try to identify a hidden word with limited attempts. The game is designed to be both entertaining and challenging, suitable for casual players and word puzzle enthusiasts alike.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🎯 Random word generation
+- ⌛ Limited guesses
+- 🧠 Real-time feedback on guesses
+- 💡 Hint system (optional)
+- ⚡ Smooth UI built with React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Assembly-Endgame
-Guess the Word
->>>>>>> 28b630566ae5331588167d2034e83cb1a7c7601e
+📁 Project Structure
+bash
+Copy
+Edit
+src/
+│
+├── App.jsx            # Main app logic
+├── components/        # Reusable UI components
+├── assets/            # Images, styles, etc.
+├── utils/             # Helper functions
+└── index.html         # Entry HTML file
+🛠️ Technologies Used
+React
+
+Vite
+
+JavaScript
+
+CSS
